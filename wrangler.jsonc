@@ -3,7 +3,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
 
   // Name of your worker
-  "name": "ai-stream",
+  "name": "example-streaming-ai-chat",
 
   // Entry point for your worker
   "main": "src/worker.tsx",
