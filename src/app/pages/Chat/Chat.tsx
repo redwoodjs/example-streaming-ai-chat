@@ -8,7 +8,9 @@ export function Chat() {
   const [message, setMessage] = useState("");
   const [reply, setReply] = useState("");
 
-  const onClick = async () => {
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
     setReply(""); // Reset reply before new message
     (await sendMessage(message)).pipeTo(
       consumeEventStream({
@@ -24,7 +26,8 @@ export function Chat() {
   };
 
   return (
-    <div>
+    <form onSubmit={onSubmit}>
+      <div>{reply}</div>
       <input
         type="text"
         value={message}
@@ -39,7 +42,7 @@ export function Chat() {
         }}
       />
       <button
-        onClick={onClick}
+        onClick={onSubmit}
         style={{
           padding: "10px 20px",
           borderRadius: "4px",
@@ -51,7 +54,6 @@ export function Chat() {
       >
         Send
       </button>
-      <div>{reply}</div>
-    </div>
+    </form>
   );
 }
