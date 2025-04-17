@@ -23,11 +23,8 @@
     "types": "tsc"
   },
   "dependencies": {
-    "@redwoodjs/sdk": "0.0.61",
+    "@redwoodjs/sdk": "0.0.65",
     "@tailwindcss/vite": "^4.1.3",
-    "react": "canary",
-    "react-dom": "canary",
-    "react-server-dom-webpack": "canary",
     "tailwindcss": "^4.1.3"
   },
   "devDependencies": {
