@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@redwoodjs/sdk':
-        specifier: 0.0.66
-        version: 0.0.66(@types/node@22.14.0)(rollup@4.39.0)(typescript@5.8.3)(vite@6.2.5(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.1))(webpack@5.98.0)(workerd@1.20250321.0)
+        specifier: 0.0.67
+        version: 0.0.67(@types/node@22.14.0)(rollup@4.39.0)(typescript@5.8.3)(vite@6.2.5(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.1))(webpack@5.98.0)(workerd@1.20250321.0)
       '@tailwindcss/vite':
         specifier: ^4.1.3
         version: 4.1.3(vite@6.2.5(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.1))
@@ -692,8 +692,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@redwoodjs/sdk@0.0.66':
-    resolution: {integrity: sha512-3IdCdEubjJJfB/vrkT82WEgSAf1+W3OyO1JS+iwtzSJN9Npigk9t46milHE8/yQK1c+rBhQ7pQv0zbMHXjtlAQ==}
+  '@redwoodjs/sdk@0.0.67':
+    resolution: {integrity: sha512-5XgTCp5yMduv+CzgXOHw79HANkL4rNQWBpzn7qjwVO8khee/9WCyW1RsncoMYrPVqqFyBkUdQkTFuimLQHNrAQ==}
     hasBin: true
     peerDependencies:
       vite: ^6.2.5
@@ -2838,7 +2838,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@redwoodjs/sdk@0.0.66(@types/node@22.14.0)(rollup@4.39.0)(typescript@5.8.3)(vite@6.2.5(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.1))(webpack@5.98.0)(workerd@1.20250321.0)':
+  '@redwoodjs/sdk@0.0.67(@types/node@22.14.0)(rollup@4.39.0)(typescript@5.8.3)(vite@6.2.5(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.1))(webpack@5.98.0)(workerd@1.20250321.0)':
     dependencies:
       '@cloudflare/vite-plugin': 1.0.3(rollup@4.39.0)(vite@6.2.5(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.1))(workerd@1.20250321.0)(wrangler@4.9.1(@cloudflare/workers-types@4.20250409.0))
       '@cloudflare/workers-types': 4.20250409.0
