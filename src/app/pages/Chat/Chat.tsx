@@ -2,7 +2,7 @@
 
 import { sendMessage } from "./functions";
 import { useState } from "react";
-import { consumeEventStream } from "@redwoodjs/sdk/client";
+import { consumeEventStream } from "rwsdk/client";
 
 export function Chat() {
   const [message, setMessage] = useState("");
@@ -26,7 +26,7 @@ export function Chat() {
             return (prev += JSON.parse(event.data).response);
           });
         },
-      }),
+      })
     );
   };
 
